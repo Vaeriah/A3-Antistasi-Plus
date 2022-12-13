@@ -342,62 +342,6 @@
             </Key>
         </Container>
         <Container name="scrt_stores">
-            <Key ID="STR_stores_price_generic">
-                <Original>Price: %1%2&lt;br/&gt;</Original>
-                <Russian>Цена: %1%2&lt;br/&gt;</Russian>
-            </Key>
-            <Key ID="STR_scrt_stores_aa_category">
-                <Original>Anti-Air Vehicles</Original>
-                <Russian>ПВО</Russian>
-            </Key>
-            <Key ID="STR_scrt_stores_mrap_category">
-                <Original>MRAPs, Armored Wheeled Vehicles</Original>
-                <Russian>МРАПы, бронированная лёгкая колесная техника</Russian>
-            </Key>
-            <Key ID="STR_scrt_stores_wheel_apc_category">
-                <Original>Wheeled APCs</Original>
-                <Russian>Колёсные БТР</Russian>
-            </Key>
-            <Key ID="STR_scrt_stores_tracked_apc_category">
-                <Original>Tracked APCs</Original>
-                <Russian>Гусеничные БМП</Russian>
-            </Key>
-            <Key ID="STR_scrt_stores_helicopters_category">
-                <Original>Helicopters</Original>
-                <Russian>Вертолёты</Russian>
-            </Key>
-            <Key ID="STR_scrt_stores_tank_category">
-                <Original>Tanks</Original>
-                <Russian>Танки</Russian>
-            </Key>
-            <Key ID="STR_scrt_stores_planes_category">
-                <Original>Planes</Original>
-                <Russian>Самолёты</Russian>
-            </Key>
-            <Key ID="STR_scrt_stores_uav_category">
-                <Original>UAV</Original>
-                <Russian>БПЛА</Russian>
-            </Key>
-            <Key ID="STR_scrt_stores_light_utility_category">
-                <Original>Light Utility Vehicles</Original>
-                <Russian>Лёгкие многоцелевые транспортные средства</Russian>
-            </Key>
-            <Key ID="STR_scrt_stores_atgm_category">
-                <Original>ATGM Carriers</Original>
-                <Russian>Носители ПТРК</Russian>
-            </Key>
-            <Key ID="STR_scrt_stores_manpads_category">
-                <Original>MANPADS Carriers</Original>
-                <Russian>Носители ПЗРК</Russian>
-            </Key>
-            <Key ID="STR_scrt_stores_artillery_category">
-                <Original>Artillery</Original>
-                <Russian>Артиллерия</Russian>
-            </Key>
-            <Key ID="STR_scrt_stores_buy_loot_crate_header">
-                <Original>Loot Crate Purchase</Original>
-                <Russian>Покупка ящика для сбора добычи</Russian>
-            </Key>
             <Key ID="STR_scrt_stores_buy_loot_crate_not_enough">
                 <Original>You have not enough money to buy loot crate. %1%2 needed.</Original>
                 <Russian>У вас недостаточно денег для покупки ящика-сборщика добычи. Необходимо %1%2.</Russian>
@@ -1059,11 +1003,11 @@
         </Container>
         <Container name="comms_mp">
             <Key ID="STR_comms_mp_smokes">
-                <Original>&lt;t size='0.6'&gt;Our mortar sends some &lt;t size='0.6' color='#808080'&gt;smoke shells&lt;/t&gt;to cover your position.&lt;/t&gt;</Original>
+                <Original>&lt;t size='0.6'&gt;Our mortar fires some &lt;t size='0.6' color='#808080'&gt;smoke shells&lt;/t&gt; to cover your position.&lt;/t&gt;</Original>
                 <Russian>&lt;t size='0.6'&gt;Наш миномет стреляет &lt;t size='0.6' color='#808080'&gt;дымовыми снарядами&lt;/t&gt; для создания дымовой завесы рядом с вашей позицией.&lt;/t&gt;</Russian>
             </Key>
             <Key ID="STR_comms_mp_flares">
-                <Original>&lt;t size='0.6'&gt;Our mortar sends some &lt;t size='0.6' color='#808080'&gt;flares&lt;/t&gt;to illuminate the battlefield near your position.&lt;/t&gt;</Original>
+                <Original>&lt;t size='0.6'&gt;Our mortar fires some &lt;t size='0.6' color='#808080'&gt;flares&lt;/t&gt; to illuminate the battlefield near your position.&lt;/t&gt;</Original>
                 <Russian>&lt;t size='0.6'&gt;Наш миномет стреляет &lt;t size='0.6' color='#808080'&gt;осветительными&lt;/t&gt; для улучшения условий видимости на поле боя рядом с вашим местоположением.&lt;/t&gt;</Russian>
             </Key>
         </Container>
@@ -3043,16 +2987,16 @@
                 <Russian>Вы слишком отъехали или ушли от любых дорог!</Russian>
             </Key>
             <Key ID="STR_info_bar_undercover_break_reason_mil_items_1">
-                <Original>You can't stay Undercover while:&lt;br/&gt;&lt;br/&gt;A weapon is visible&lt;br/&gt;Wearing a vest&lt;br/&gt;Wearing a helmet&lt;br/&gt;Wearing NVGs&lt;br/&gt;Wearing a mil uniform!</Original>
-                <Russian>Вы не можете оставаться под прикрытием, если:&lt;br/&gt;&lt;br/&gt; у вас есть какое-либо видимое оружие&lt;br/&gt;Вы в бронежилете или разгрузке&lt;br/&gt;Вы в каске&lt;br/&gt;Вы носите ПНВ&lt;br/&gt;Вы в военной форме!</Russian>
+                <Original>You can't stay Undercover while:&lt;br/&gt;&lt;br/&gt;A weapon is visible&lt;br/&gt;Wearing a vest&lt;br/&gt;Wearning a non-civilian backpack&lt;br/&gt;Wearing a helmet&lt;br/&gt;Wearing NVGs&lt;br/&gt;Wearing a military uniform!</Original>
+                <Russian>Вы не можете оставаться под прикрытием, если:&lt;br/&gt;&lt;br/&gt; у вас есть какое-либо видимое оружие&lt;br/&gt;Вы в бронежилете или разгрузке&lt;br/&gt;Вы носите негражданский рюкзак&lt;br/&gt;Вы в каске&lt;br/&gt;Вы носите ПНВ&lt;br/&gt;Вы в военной форме!</Russian>
             </Key>
             <Key ID="STR_info_bar_undercover_break_reason_mil_carry">
                 <Original>You're looking very suspicious while carrying military-grade items, and the enemy has noticed it.</Original>
                 <Russian>Вы выглядите очень подозрительно, когда носите предметы военного назначения, и враг это заметил.</Russian>
             </Key>
             <Key ID="STR_info_bar_undercover_break_reason_mil_items_2">
-                <Original>You can't stay Undercover while:&lt;br/&gt;&lt;br/&gt;A weapon is visible&lt;br/&gt;Wearing a vest&lt;br/&gt;Wearing a helmet&lt;br/&gt;Wearing NVGs&lt;br/&gt;Wearing a mil uniform&lt;br/&gt;Enemy have added you to Wanted list!</Original>
-                <Russian>Вы не можете оставаться под прикрытием, если:&lt;br/&gt;&lt;br/&gt; у вас есть какое-либо видимое оружие&lt;br/&gt;Вы в бронежилете или разгрузке&lt;br/&gt;Вы в каске&lt;br/&gt;Вы носите ПНВ&lt;br/&gt;Вы в военной форме&lt;br/&gt;Враг добавил вас в список разыскиваемых лиц!</Russian>
+                <Original>You can't stay Undercover while:&lt;br/&gt;&lt;br/&gt;A weapon is visible&lt;br/&gt;Wearing a vest&lt;br/&gt;Wearning a non-civilian backpack&lt;br/&gt;Wearing a helmet&lt;br/&gt;Wearing NVGs&lt;br/&gt;Wearing a military uniform&lt;br/&gt;Enemy have added you to Wanted list!</Original>
+                <Russian>Вы не можете оставаться под прикрытием, если:&lt;br/&gt;&lt;br/&gt; у вас есть какое-либо видимое оружие&lt;br/&gt;Вы в бронежилете или разгрузке&lt;br/&gt;Вы носите негражданский рюкзак&lt;br/&gt;Вы в каске&lt;br/&gt;Вы носите ПНВ&lt;br/&gt;Вы в военной форме&lt;br/&gt;Враг добавил вас в список разыскиваемых лиц!</Russian>
             </Key>
             <Key ID="STR_info_bar_undercover_break_reason_bad_medic_1">
                 <Original>You can't stay in undercover state while healing a compromised resistance member!</Original>
@@ -5314,14 +5258,8 @@
         </Container>
         <Container name="black_market">
             <Key ID="STR_trader_black_market_title">
-                <Original>Military Vehicles Black Market</Original>
-                <Russian>Черный рынок военной техники</Russian>
-            </Key>
-        </Container>
-        <Container name="technicals_menu">
-            <Key ID="STR_trader_technicals_title">
-                <Original>Additional Rebel Vehicles</Original>
-                <Russian>Дополнительная повстанческая техника</Russian>
+                <Original>Vehicle Black Market</Original>
+                <Russian>Черный рынок техники</Russian>
             </Key>
         </Container>
         <Container name="intel_actions">
@@ -6895,6 +6833,14 @@
                 <Original>Weapon visible</Original>
                 <Russian>Видимое оружие</Russian>
             </Key>
+            <Key ID="STR_A3A_goUndercover_error_additive_visible_weapon_veh">
+                <Original>%1&lt;br/&gt;A weapon is visible while not being driver of a vehicle.</Original>
+                <Russian>%1&lt;br/&gt;Видно оружие не у водителя.</Russian>
+            </Key>
+            <Key ID="STR_A3A_goUndercover_error_additive_visible_weapon_veh_output">
+                <Original>Weapon visible on non-driver person</Original>
+                <Russian>Видимое оружие у не-водителя техники</Russian>
+            </Key>
             <Key ID="STR_A3A_goUndercover_error_additive_vest">
                 <Original>%1&lt;br/&gt;Wearing a vest.</Original>
                 <Russian>%1&lt;br/&gt;Надет бронежилет или разгрузка.</Russian>
@@ -7358,14 +7304,6 @@
              <Key ID="STR_A3A_addFiaVeh_header">
                 <Original>Vehicle Shop</Original>
                 <Russian>Покупка техники</Russian>
-            </Key>
-            <Key ID="STR_A3A_blackmarket_header">
-                <Original>Vehicle Black Market</Original>
-                <Russian>Чёрный рынок техники</Russian>
-            </Key>
-            <Key ID="STR_A3A_blackmarket_no_airports">
-                <Original>You can't buy helicopters or planes without captured airports.</Original>
-                <Russian>Вы не можете покупать вертолёты или самолёты если у вас нет захваченных авиабаз.</Russian>
             </Key>
             <Key ID="STR_A3A_reinf_addSquadVeh_header">
                 <Original>Add Squad Vehicle</Original>
@@ -7835,17 +7773,9 @@
                 <Original>&lt;br/&gt;&lt;t size='0.6'&gt;AA, AT Emplacements are available for building, AA/AT squads and teams are available for recruitment.&lt;/t&gt;</Original>
                 <Russian>&lt;br/&gt;&lt;t size='0.6'&gt;Зенитные и противотанковые огневые точки доступны для постройки, также появляется возможность нанимать ПВО/ПТ-расчёты и отряды.&lt;/t&gt;</Russian>
             </Key>
-            <Key ID="STR_A3A_Base_commsMp_unlock_black_market_t5">
-                <Original>&lt;br/&gt;&lt;br/&gt;&lt;t size='0.6'&gt;Black Vehicle Market stock has been updated with Tier 2 vehicles.&lt;/t&gt;</Original>
-                <Russian>&lt;br/&gt;&lt;br/&gt;&lt;t size='0.6'&gt;Черный военной техники обновил представленные позиции - теперь доступна T2-техника.&lt;/t&gt;</Russian>
-            </Key>
             <Key ID="STR_A3A_Base_commsMp_unlock_tier5_theBoss">
                 <Original>&lt;br/&gt;&lt;t size='0.6'&gt;Mortar teams are available for recruitment.&lt;/t&gt;</Original>
                 <Russian>&lt;br/&gt;&lt;t size='0.6'&gt;Миномётные расчёты доступны для найма.&lt;/t&gt;</Russian>
-            </Key>
-            <Key ID="STR_A3A_Base_commsMp_unlock_black_market_t8">
-                <Original>&lt;br/&gt;&lt;br/&gt;&lt;t size='0.6'&gt;Black Vehicle Market stock has been updated with Tier 3 vehicles.&lt;/t&gt;</Original>
-                <Russian>&lt;br/&gt;&lt;br/&gt;&lt;t size='0.6'&gt;Черный военной техники обновил представленные позиции - теперь доступна T3-техника.&lt;/t&gt;</Russian>
             </Key>
             <Key ID="STR_A3A_Base_commsMp_unlock_support_points">
                 <Original>&lt;br/&gt;&lt;br/&gt;&lt;t size='0.6'&gt;Non-offensive support actions are available (Commander Menu).&lt;/t&gt;</Original>
