@@ -48,9 +48,9 @@ A3A_paramTable = [
 
     ["startWithLongRangeRadio", "startWithLongRangeRadio", [], false],
     ["helmetLossChance", "helmetLossChance", [], 33],
-    ["minWeaps", "unlockItem", [], 25],
-    ["memberOnlyMagLimit", "memberOnlyMagLimit", [], 40],				// dead param
-    ["unlockedUnlimitedAmmo", "unlockedUnlimitedAmmo", [], 0],			// these three are not bool for some reason
+    ["minWeaps", "unlockItem", [], 5],
+    ["memberOnlyMagLimit", "memberOnlyMagLimit", [], 5],				// dead param
+    ["unlockedUnlimitedAmmo", "unlockedUnlimitedAmmo", [], 10],			// these three are not bool for some reason
     ["allowGuidedLaunchers", "allowGuidedLaunchers", [], 1],
 
     ["logLevel", "LogLevel", ["override"], 2],
@@ -89,7 +89,7 @@ A3A_paramTable = [
     ["factionsDefeat", "factionsDefeat", [], true],
     ["areRandomEventsEnabled", "randomEvents", [], true],
     ["fastTravelIndividualEnemyCheck", "fastTravelEnemyCheck", [], true],
-    ["unflipPersonCount", "unflipPersonCount", [], 3],
+    ["unflipPersonCount", "unflipPersonCount", [], 1],
     ["playerIcons", "playerIcons", [], true],
     ["magRepack", "magRepack", [], true],
     ["rhsOccupantFaction", "rhsOccupantFaction", ["server"], 0],
@@ -98,7 +98,7 @@ A3A_paramTable = [
     ["aiControlTime", "aiControlTime", [], 60],
     ["deathPenalty", "deathPenalty", [], 0.3],
     ["saveZeusBuildings", "saveZeusBuildings", [], true],
-    ["aiAccuracyCeiling", "aiAccuracyCeiling", [], 0.5]
+    ["aiAccuracyCeiling", "aiAccuracyCeiling", [], 0.2]
     // beware of the comma
 ];
 
